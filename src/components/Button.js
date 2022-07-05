@@ -1,6 +1,6 @@
 import React from "react";
 import { buttons } from "../buttons";
-import { useGlobalContext } from "../Context/AppContext";
+import { useGlobalContext } from "../context/AppContext";
 
 const Button = () => {
   const { setTip,activeID,setActiveID } = useGlobalContext();
