@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { useGlobalContext } from "../Context/AppContext";
+import { useGlobalContext } from "../context/AppContext";
 import Button from "./Button";
 
 
